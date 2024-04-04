@@ -1,0 +1,62 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f4f6;
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  list-style: none;
+}
+.logo img {
+  width: 107.21px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.createBTN button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px, 16px;
+  border-radius: 12px;
+  background-color: #2563eb;
+  color: white;
+  gap: 7px;
+  margin-top: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  padding-left: 10px;
+}
+ul,
+.sideBar-bottum {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sideBar-bottum {
+  margin-top: 180px;
+}
+.active {
+  background-color: #e5e7eb;
+  height: 40px;
+  border-radius: 12px;
+}

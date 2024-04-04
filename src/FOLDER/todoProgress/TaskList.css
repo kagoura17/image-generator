@@ -1,0 +1,36 @@
+/* taskList.css */
+.task-list-container {
+  margin-bottom: 20px;
+}
+
+.task-list-container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.task-list-container select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-list-container li div {
+  margin-bottom: 5px;
+}
+
+.task-list-container li:last-child {
+  margin-bottom: 0;
+}

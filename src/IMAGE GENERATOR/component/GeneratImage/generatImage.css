@@ -1,0 +1,130 @@
+.imgGeneratMain {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.imgGeneratLeft {
+  width: 45%;
+  background-color: #f3f4f6;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #d1d5db;
+  border-radius: 20px;
+}
+.imgGeneratRight {
+  width: 55%;
+}
+.rightTop {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.generatForm {
+  margin-top: 20px;
+}
+.generatForm input {
+  width: 730px;
+  height: 30px;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+}
+.rightMiddel {
+  display: flex;
+  justify-content: space-between;
+}
+.select-1,
+.select-2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.select-1 select {
+  width: 540px;
+  height: 35px;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6b7280;
+}
+.select-2 select {
+  width: 170px;
+  height: 35px;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6b7280;
+}
+.labelBtn {
+  display: flex;
+  gap: 30px;
+}
+.labelBtn button {
+  background-color: white;
+  border: 3.5px solid #9ca3af;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6b7280;
+}
+.colors {
+  display: flex;
+  gap: 30px;
+  height: 30px;
+}
+.chooseColor {
+  padding-right: 20px;
+  border-right: 3px solid #d1d5db;
+}
+.colors button {
+  background-color: white;
+  border: 3.5px solid #9ca3af;
+  border-radius: 50%;
+  width: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6b7280;
+  height: 30px;
+}
+.dragNdrop {
+  background-color: #f3f4f6;
+  height: 148px;
+  border: 3px solid #d1d5db;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  margin-top: 10px;
+}
+.dragNdrop img {
+  padding: 15px;
+  background-color: #cacccf;
+  border-radius: 10px;
+}
+.dragNdrop p{
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 5px;
+} 
+.creatImgBTN {
+  background-color: #2563eb;
+  width: 750px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+}

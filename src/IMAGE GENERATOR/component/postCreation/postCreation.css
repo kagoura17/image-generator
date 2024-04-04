@@ -1,0 +1,113 @@
+.creatPostMain {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.creatPosLeft {
+  width: 45%;
+  background-color: #f3f4f6;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #d1d5db;
+  border-radius: 20px;
+}
+.creatPostRight {
+  width: 55%;
+}
+.postRightTop {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.creatPostForm {
+  margin-top: 15px;
+}
+.creatPostForm input {
+  width: 730px;
+  height: 30px;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+}
+.postRightMiddel {
+  display: flex;
+  justify-content: space-between;
+}
+.postSelect {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.postSelect select {
+  width: 540px;
+  height: 35px;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6b7280;
+}
+.postLabelBtn {
+  display: flex;
+  gap: 30px;
+}
+.postLabelBtn button {
+  background-color: white;
+  border: 3.5px solid #9ca3af;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+.postDescription textarea {
+  width: 720px;
+  height: 110px;
+  border: 3px solid #d1d5db;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  margin-top: 10px;
+  padding: 10px;
+}
+.postButtons {
+  display: flex;
+  gap: 25px;
+  margin-top: 47px;
+}
+.postBTN {
+  background-color: #2563eb;
+  width: 420px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.saveBTN {
+  background-color: #c9ced4;
+  width: 300px;
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

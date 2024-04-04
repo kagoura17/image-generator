@@ -1,0 +1,82 @@
+.imgResultMain {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.imgResultLeft {
+  width: 44.5%;
+  background-color: #f3f4f6;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #d1d5db;
+  border-radius: 20px;
+}
+.imgResultRight {
+  width: 55%;
+}
+.resultrightTop {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.resultRightContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.resultMiddle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.downloadBTN {
+  background-color: #2563eb;
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.postResultBTN {
+  background-color: #e5e7eb;
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: black;
+}
+.btns {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #374151;
+}
+.socials {
+  display: flex;
+  gap: 35px;
+  margin-top: 30px;
+}
+.resultMiddle h2 {
+  color: #f59e0b;
+  font-size: 26px;
+}
+.resultMiddle p {
+  color: #6B7280;
+  font-size: 15px;
+  font-weight: lighter;
+}
